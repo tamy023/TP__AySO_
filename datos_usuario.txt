@@ -1,1 +1,2 @@
 Usuario=tamara
+model name	: AMD Ryzen 5 5600G with Radeon Graphics
