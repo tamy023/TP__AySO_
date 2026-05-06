@@ -1,0 +1,57 @@
+sudo apt update
+sudo apt upgrade
+sudo apt clean
+cd
+mkdir repogit
+cd repogit
+pwd
+ls
+ssh-keygen
+cat $HOME/ssh/*.pub
+car $HOME/.ssh/*.pub
+cat $HOME/ .ssh/*.pub
+~/repogit$
+cd
+mkdir repogit
+cd repogit
+pwd
+ls
+git clone git@github.com:tamy023/TP__AySO_.git
+sudo apt install git
+git clone git@github.com:tamy023/TP__AySO_.git
+cd TP__AySO_
+pwd
+ls -l
+echo "Usuario=$(whoami)" >datos_usuario.txt
+git add .
+git config --global user.name "Tamara"
+git config --global user.email "tamy_023@hotmail.com"
+git commit -m "ADD: Primer Ejercicio"
+git push
+cat datos_usuario.txt
+whoami
+git status
+cat /etc/os-release
+grep HOPE_URL /etc/os-release
+grep HOME_URL /etc/os-release
+grep -i home_url /etc/os-release
+grep "model name" /proc/cpuinfo | head -n1 >>datos_usuario.txt
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Anadiendo Informacion de CPU"
+git push
+cat <<EOF >> README.md
+Alumno: Tamara
+Division: 315
+Turno: Noche
+EOF
+
+cat README.md
+git add README.md datos_usuario.txt
+git commit -m "Anadiendo README y datos de usuario"
+git push
+history -a
+cd ~/repogit/TP__AySO_
+pwd
+ls
+history -a
